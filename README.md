@@ -33,7 +33,7 @@
    ```bash
    cd $CMSSW_BASE/src/PhysicsTools/NanoAODTools/python/postprocessing/analysis
 
-   source init.sh
+   source init.sh 2017
    ```
 
 ## submit jobs
