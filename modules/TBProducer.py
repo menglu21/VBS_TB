@@ -940,14 +940,14 @@ class TBProducer(Module):
               Twolep_l1_eta=fakeable_Muons[0].Eta()
               Twolep_l1_phi=fakeable_Muons[0].Phi()
               Twolep_l1_mass=fakeable_Muons[0].M()
-              Twolep_l1_pdgid=fakeable_Muons_pdgid[0].M()
-              Twolep_l1_id=fakeable_Muons_id[0].M()
+              Twolep_l1_pdgid=fakeable_Muons_pdgid[0]
+              Twolep_l1_id=fakeable_Muons_id[0]
               Twolep_l2_pt=tightMuons[0].Pt()
               Twolep_l2_eta=tightMuons[0].Eta()
               Twolep_l2_phi=tightMuons[0].Phi()
               Twolep_l2_mass=tightMuons[0].M()
-              Twolep_l2_pdgid=tightMuons_pdgid[0].M()
-              Twolep_l2_id=tightMuons_id[0].M()
+              Twolep_l2_pdgid=tightMuons_pdgid[0]
+              Twolep_l2_id=tightMuons_id[0]
               Twolep_mll=(tightMuons[0]+fakeable_Muons[0]).M()
               if self.is_mc and event.Muon_genPartFlav[Twolep_l1_id]==1 or event.Muon_genPartFlav[Twolep_l1_id]==15:
                 Twolep_l1_isprompt=1
@@ -960,14 +960,14 @@ class TBProducer(Module):
               Twolep_l1_eta=tightMuons[0].Eta()
               Twolep_l1_phi=tightMuons[0].Phi()
               Twolep_l1_mass=tightMuons[0].M()
-              Twolep_l1_pdgid=tightMuons_pdgid[0].M()
-              Twolep_l1_id=tightMuons_id[0].M()
+              Twolep_l1_pdgid=tightMuons_pdgid[0]
+              Twolep_l1_id=tightMuons_id[0]
               Twolep_l2_pt=fakeable_Muons[0].Pt()
               Twolep_l2_eta=fakeable_Muons[0].Eta()
               Twolep_l2_phi=fakeable_Muons[0].Phi()
               Twolep_l2_mass=fakeable_Muons[0].M()
-              Twolep_l2_pdgid=fakeable_Muons_pdgid[0].M()
-              Twolep_l2_id=fakeable_Muons_id[0].M()
+              Twolep_l2_pdgid=fakeable_Muons_pdgid[0]
+              Twolep_l2_id=fakeable_Muons_id[0]
               Twolep_mll=(tightMuons[0]+fakeable_Muons[0]).M()
               if self.is_mc and event.Muon_genPartFlav[Twolep_l1_id]==1 or event.Muon_genPartFlav[Twolep_l1_id]==15:
                 Twolep_l1_isprompt=1
@@ -984,14 +984,14 @@ class TBProducer(Module):
             Twolep_l1_eta=tightMuons[0].Eta()
             Twolep_l1_phi=tightMuons[0].Phi()
             Twolep_l1_mass=tightMuons[0].M()
-            Twolep_l1_pdgid=tightMuons_pdgid[0].M()
-            Twolep_l1_id=tightMuons_id[0].M()
+            Twolep_l1_pdgid=tightMuons_pdgid[0]
+            Twolep_l1_id=tightMuons_id[0]
             Twolep_l2_pt=fakeable_Electrons[0].Pt()
             Twolep_l2_eta=fakeable_Electrons[0].Eta()
             Twolep_l2_phi=fakeable_Electrons[0].Phi()
             Twolep_l2_mass=fakeable_Electrons[0].M()
-            Twolep_l2_pdgid=fakeable_Electrons_pdgid[0].M()
-            Twolep_l2_id=fakeable_Electrons_id[0].M()
+            Twolep_l2_pdgid=fakeable_Electrons_pdgid[0]
+            Twolep_l2_id=fakeable_Electrons_id[0]
             Twolep_mll=(tightMuons[0]+fakeable_Electrons[0]).M()
             if self.is_mc and event.Muon_genPartFlav[Twolep_l1_id]==1 or event.Muon_genPartFlav[Twolep_l1_id]==15:
               Twolep_l1_isprompt=1
@@ -1012,14 +1012,14 @@ class TBProducer(Module):
               Twolep_l1_eta=fakeable_Electrons[0].Eta()
               Twolep_l1_phi=fakeable_Electrons[0].Phi()
               Twolep_l1_mass=fakeable_Electrons[0].M()
-              Twolep_l1_pdgid=fakeable_Electrons_pdgid[0].M()
-              Twolep_l1_id=fakeable_Electrons_id[0].M()
+              Twolep_l1_pdgid=fakeable_Electrons_pdgid[0]
+              Twolep_l1_id=fakeable_Electrons_id[0]
               Twolep_l2_pt=tightElectrons[0].Pt()
               Twolep_l2_eta=tightElectrons[0].Eta()
               Twolep_l2_phi=tightElectrons[0].Phi()
               Twolep_l2_mass=tightElectrons[0].M()
-              Twolep_l2_pdgid=tightElectrons_pdgid[0].M()
-              Twolep_l2_id=tightElectrons_id[0].M()
+              Twolep_l2_pdgid=tightElectrons_pdgid[0]
+              Twolep_l2_id=tightElectrons_id[0]
               Twolep_mll=(tightElectrons[0]+fakeable_Electrons[0]).M()
               if self.is_mc and event.Electron_genPartFlav[Twolep_l1_id]==1 or event.Electron_genPartFlav[Twolep_l1_id]==15:
                 Twolep_l1_isprompt=1
@@ -1032,14 +1032,14 @@ class TBProducer(Module):
               Twolep_l1_eta=tightElectrons[0].Eta()
               Twolep_l1_phi=tightElectrons[0].Phi()
               Twolep_l1_mass=tightElectrons[0].M()
-              Twolep_l1_pdgid=tightElectrons_pdgid[0].M()
-              Twolep_l1_id=tightElectrons_id[0].M()
+              Twolep_l1_pdgid=tightElectrons_pdgid[0]
+              Twolep_l1_id=tightElectrons_id[0]
               Twolep_l2_pt=fakeable_Electrons[0].Pt()
               Twolep_l2_eta=fakeable_Electrons[0].Eta()
               Twolep_l2_phi=fakeable_Electrons[0].Phi()
               Twolep_l2_mass=fakeable_Electrons[0].M()
-              Twolep_l2_pdgid=fakeable_Electrons_pdgid[0].M()
-              Twolep_l2_id=fakeable_Electrons_id[0].M()
+              Twolep_l2_pdgid=fakeable_Electrons_pdgid[0]
+              Twolep_l2_id=fakeable_Electrons_id[0]
               Twolep_mll=(tightElectrons[0]+fakeable_Electrons[0]).M()
               if self.is_mc and event.Electron_genPartFlav[Twolep_l1_id]==1 or event.Electron_genPartFlav[Twolep_l1_id]==15:
                 Twolep_l1_isprompt=1
@@ -1056,14 +1056,14 @@ class TBProducer(Module):
             Twolep_l1_eta=tightElectrons[0].Eta()
             Twolep_l1_phi=tightElectrons[0].Phi()
             Twolep_l1_mass=tightElectrons[0].M()
-            Twolep_l1_pdgid=tightElectrons_pdgid[0].M()
-            Twolep_l1_id=tightElectrons_id[0].M()
+            Twolep_l1_pdgid=tightElectrons_pdgid[0]
+            Twolep_l1_id=tightElectrons_id[0]
             Twolep_l2_pt=fakeable_Muons[0].Pt()
             Twolep_l2_eta=fakeable_Muons[0].Eta()
             Twolep_l2_phi=fakeable_Muons[0].Phi()
             Twolep_l2_mass=fakeable_Muons[0].M()
-            Twolep_l2_pdgid=fakeable_Muons_pdgid[0].M()
-            Twolep_l2_id=fakeable_Muons_id[0].M()
+            Twolep_l2_pdgid=fakeable_Muons_pdgid[0]
+            Twolep_l2_id=fakeable_Muons_id[0]
             Twolep_mll=(tightElectrns[0]+fakeable_Muons[0]).M()
             if self.is_mc and event.Muon_genPartFlav[Twolep_l1_id]==1 or event.Muon_genPartFlav[Twolep_l1_id]==15:
               Twolep_l1_isprompt=1
