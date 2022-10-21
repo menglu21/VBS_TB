@@ -842,7 +842,7 @@ class TBProducer(Module):
           if self.is_mc and event.Muon_genPartFlav[Onelep_l1_id]==1 or event.Muon_genPartFlav[Onelep_l1_id]==15:
             Onelep_l1_isprompt=1
         else:
-          Onelep_l1_id=fakeable_Electrons[0]
+          Onelep_l1_id=fakeable_Electrons_id[0]
           Onelep_l1_pdgid=fakeable_Electrons_pdgid[0]
           if self.is_mc and event.Electron_genPartFlav[Onelep_l1_id]==1 or event.Electron_genPartFlav[Onelep_l1_id]==15:
             Onelep_l1_isprompt=1
