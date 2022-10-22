@@ -158,7 +158,8 @@ def createJMECorrector(isMC=True,
         else:
             jmeCorrections = lambda: jetmetUncertaintiesProducer(
                 era=dataYear,
-                archive=archiveTag_,
+                #archive=archiveTag_,
+                archive=None,
                 globalTag=jecTag_,
                 jesUncertainties=jmeUncert_,
                 jerTag=jerTag_,
